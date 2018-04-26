@@ -3,7 +3,6 @@ package com.mahdi.fingerprintauthentication;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.CancellationSignal;
@@ -58,7 +57,7 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
 
         handler.postDelayed(new Runnable() {
             @Override
-            public void run() { FingerprintActivity.start(context); }} , 1500 );
+            public void run() { FingerprintActivity.start(context); }} , 1000 );
     }
 
 
@@ -66,7 +65,7 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
         TextView textView = ((Activity)context).findViewById(R.id.errorText);
         textView.setText(e);
         if(success){
-            textView.setTextColor(ContextCompat.getColor(context,R.color.colorPrimaryDark));
+            textView.setTextColor(ContextCompat.getColor(context,R.color.colorGreen));
         }
     }
 }

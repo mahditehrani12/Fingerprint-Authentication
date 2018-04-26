@@ -9,4 +9,5 @@
     <color name="errorText">#ff7878</color>
 
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGreen">#03be00</color>
 </resources>
