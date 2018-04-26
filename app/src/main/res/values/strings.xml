@@ -10,4 +10,12 @@
     <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
     <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
 
+    <string name="dont_have_fingerPrint_sensor_error"> Your Device does not have a Fingerprint Sensor </string>
+    <string name="dont_have_permission"> Fingerprint authentication permission not enabled </string>
+    <string name="register_one_fingerPrint"> Register at least one fingerprint in Settings </string>
+    <string name="lockScreen_security"> Lock screen security not enabled in Settings </string>
+
+    <string name="todo">TODO</string>
+    <string name="github"> https://github.com/mahditehrani12 </string>
+
 </resources>
